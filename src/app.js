@@ -5,6 +5,9 @@ import Footer from './components/footer.js';
 
 import './app.scss';
 
+/**
+ * Holds state for a counter and methods to increase or decrease the count
+ */
 class Counter extends React.Component {
   constructor(props) {
     super(props);
