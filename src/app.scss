@@ -1,0 +1,50 @@
+$baseColor: rgb(3, 117, 13);
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: $baseColor;
+  text-align: center;
+  
+  body {
+    background-color: lighten($baseColor, 40);
+    border-radius: 15px;
+    width: 60%;
+    max-width: 300px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    header {
+      background-color: lighten($baseColor, 20);
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+    a {
+      color: darken($baseColor, 40);
+
+      &:hover {
+        font-size: 120%;
+        line-height: 80%;
+        font-weight: bolder;
+      }
+    }
+
+    h4 {
+      margin: 2em;
+    }
+
+    footer {
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      margin-top: 2em;
+      padding-top: 5px;
+      background-color: lighten($baseColor, 20);
+      
+    }
+  }
+}
