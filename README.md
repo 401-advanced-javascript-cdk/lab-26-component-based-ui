@@ -3,9 +3,7 @@ Uses React to display an App component with a header, footer, and counter
 ### Author: Chris Kozlowski
 
 ### Links and Resources
-* [Submission PR](https://github.com/401-advanced-javascript-cdk/lab16-event-driven-applications/pull/1)
-<!-- * [Travis]( --- ) -->
-<!-- * [Heroku Deployment]( --- ) -->
+* [Submission PR](https://github.com/401-advanced-javascript-cdk/lab-26-component-based-ui/pull/1)
 
 ### Modules
 #### `index.js`
